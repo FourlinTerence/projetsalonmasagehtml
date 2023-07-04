@@ -301,6 +301,8 @@ nav input:hover {
   background: #f9f9f9;
   min-height: 40rem;
   padding: 3rem 10% 0 10%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .flexContainer {
@@ -311,17 +313,17 @@ nav input:hover {
 
 .flexContainer ul {
   display: flex;
-  background: red;
   width: 30%;
   flex-direction: column;
   justify-content: center;
+  padding: 0;
 }
 
 
 .flexContainer li {
   background: #ffffff;
   height: 3rem;
-  width: 100%;
+  width: 20rem;
   list-style: none;
   font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
   box-sizing: border-box;
@@ -333,10 +335,16 @@ nav input:hover {
   align-content:center;
 }
 
-.flexContainer ul li span {
-  height: 3rem;
-  width: 3rem;
-  background: pink;
-  border-radius: 150px;
+#etiquette {
+  margin-right: 1rem;
 }
 
+.flexContainer li img {
+  height: 2.5rem;
+  width: 2.5rem;
+  margin: auto 1rem auto 0;
+}
+
+.troisiemePartie img {
+  height: 516px;
+}
