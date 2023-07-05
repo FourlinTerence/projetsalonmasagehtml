@@ -408,7 +408,7 @@ nav input:hover {
 
 .texteCinquiemePartie {
   text-align: end;
-  justify-content: end !important;
+  justify-content: end;
   width: 45%;
   padding-top: 4rem;
 }
@@ -750,9 +750,141 @@ footer .fontLogo i {
   margin-left: 8px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+
+  /* PREMIERE PARTIE */
+
+  .premierePartie {
+    justify-content: center;
+    min-height: 48rem;
+  }
+  
+  .paddingPremierePartie { 
+    text-align: center; 
+  }
+  .btn1erPartie{
+    display: block;
+    margin: 1rem auto 0 auto;
+   }
+   
+   .logoPartie1 {
+    margin: 0 auto;
+    padding-left: 0;
+   }
+   
+   .premierePartie h3 {
+    margin: 1rem auto 2rem auto;
+    padding: 0;
+   }
+
+   .lienAncrage {
+    display: none;
+   }
+   
+   /* DEUXIEME PARTIE */
+
+   .deuxiemePartie
+   
+   .box1 {
+    transform: scale(0.95);
+    margin: 0;
+   }
+
+   .box2 {
+    transform: scale(0.95);
+   }
+
+   .box3 {
+    transform: scale(0.95);
+    margin: 0;
+   }
+
+   /*TROISIEME PARTIE*/
+
+   .troisiemePartie {
+    display: block;
+    text-align: center;
+    padding: 0;
+   }
+
+   .flexContainer {
+    justify-content: space-evenly;
+   }
+
+   .troisiemePartie img {
+    display: block;
+    height: 15rem;
+    text-align: start;
+    margin-left: 15%;
+   }
+
+   /* QUATRIEME PARTIE */
+
+   .quatriemePartie {
+    display: block;
+    padding-left: 15%;
+    padding-top: 3rem;;
+    min-height: 13rem;
+   }
+   
+   /* CINQUIEME PARTIE */
+
+   .cinquiemePartie{
+    display: block;
+    padding-top: 0;
+
+   }
+
+   .texteCinquiemePartie {
+    width: 100%;
+   }
+   
+   .cinquiemePartie img {
+    height: auto;
+    width: 100%;
+   }
+   
+   .cinquiemePartie h7 {
+    text-align: center!important;
+    display: block;
+   }
+
+   .barreOrange2{
+    margin: 2rem auto 0 auto;
+   }
+   
+   /* SIXIEME PARTIE */
+
+   .carteContainer{
+    display: grid;
+    grid-template-columns: auto auto;
+   }
+
+   .carte {
+    width: 95%;
+    margin: 2px;
+   }
+
+   .septiemePartie{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding-top: 3rem;
+   }
+
+   .septiemePartie img {
+    height: auto;
+    width: 100%;
+   }
+
+   .texteSeptiemePartie {
+    width: 100%;
+   }
 
 
 
+}
 
-
-
+@media screen and (max-width: 767px) {
+}
+ 
