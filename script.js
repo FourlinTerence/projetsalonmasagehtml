@@ -27,6 +27,8 @@ box1.addEventListener("mouseover", () => {
     box1.style.filter = "brightness(100%)";
     h61.style.transform = "translateY(10px)";
     text1.style.transform = "translateY(0px)";
+    h61.style.transitionDelay = "0s";
+    text1.style.transitionDelay = "0.6s";
     text1.style.color = "#ffffff";
 });
 
@@ -34,6 +36,8 @@ box2.addEventListener("mouseover", () => {
     box2.style.filter = "brightness(100%)";
     h62.style.transform = "translateY(10px)";
     text2.style.transform = "translateY(0px)";
+    h62.style.transitionDelay = "0s";
+    text2.style.transitionDelay = "0.6s";
     text2.style.color = "#ffffff";
 });
 
@@ -41,6 +45,8 @@ box3.addEventListener("mouseover", () => {
     box3.style.filter = "brightness(100%)";
     h63.style.transform = "translateY(10px)";
     text3.style.transform = "translateY(0px)";
+    h63.style.transitionDelay = "0s";
+    text3.style.transitionDelay = "0.6s";
     text3.style.color = "#ffffff";
 });
 
@@ -48,6 +54,8 @@ box1.addEventListener("mouseout", () => {
     box1.style.filter = "brightness(70%)";
     h61.style.transform = "translateY(280px)";
     text1.style.transform = "translateY(40px)";
+    h61.style.transitionDelay = "1s";
+    text1.style.transitionDelay = "0s";
     text1.style.color = "#ffffff00";
 });
 
@@ -55,6 +63,8 @@ box2.addEventListener("mouseout", () => {
     box2.style.filter = "brightness(70%)";
     h62.style.transform = "translateY(280px)";
     text2.style.transform = "translateY(40px)";
+    h62.style.transitionDelay = "1s";
+    text2.style.transitionDelay = "0s";
     text2.style.color = "#ffffff00";
 });
 
@@ -62,6 +72,8 @@ box3.addEventListener("mouseout", () => {
     box3.style.filter = "brightness(70%)";
     h63.style.transform = "translateY(280px)";
     text3.style.transform = "translateY(40px)";
+    h63.style.transitionDelay = "1s";
+    text3.style.transitionDelay = "0s";
     text3.style.color = "#ffffff00";
 });
 
