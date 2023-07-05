@@ -41,7 +41,7 @@ h4 {
 h5 {
   font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 15px;
   color: #000000 !important;
   letter-spacing: 2px;
   text-align: center;
@@ -346,15 +346,14 @@ nav input:hover {
   font-size: 1.5rem;
   text-align: center;
   align-content: center;
+  padding-top: 15px;
 }
 
 #etiquette {
   margin-right: 1rem;
 }
 
-.flexContainer li img {
-  height: 2.5rem;
-  width: 2.5rem;
+.flexContainer li i {
   margin: auto 1rem auto 0;
 }
 
@@ -628,9 +627,16 @@ nav input:hover {
   justify-content: center;
 }
 
-.logoContainer a img {
+.fontLogo {
+  background: #f7a191;
   width: 2rem;
+  height: 2rem;
   margin: 0 5px;
+  padding: auto;
+}
+
+.fontLogo i {
+  margin-top: 8px;
 }
 
 .masseuseContainer1:hover {
@@ -650,6 +656,100 @@ nav input:hover {
 }
 
 /*FOOTER*/
+
+footer {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.896), rgba(0, 0, 0, 1)),
+  url(image/massage16.jpg) center/cover;
+  padding: 2.5rem 10% 0 10%;
+  min-height: 32rem;
+}
+
+footer p {
+  color: rgba(255,255,255,0.71)!important;
+  line-height: 1.1rem;
+  transition: 0.6s;
+}
+
+footer h5 {
+  color: #ffffff!important;
+  font-size: 18px;
+  border-left: 6px solid #f7a191;
+  height: 1.5rem;
+  margin-bottom: 3rem;
+  text-align: start;
+  padding-left: 8px;
+}
+
+.footerPremierePartie {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.21);
+  min-height: 26rem
+}
+
+.fleche {
+  color: rgba(255, 255, 255, 0)!important;
+  transition: 0.7s;
+}
+
+.texteFooter:hover {
+  transform: translateX(0.8rem)
+}
+
+.texteFooter:hover .fleche {
+  transform: translateX(1.2rem);
+  color: rgba(255,255,255,0.71)!important;
+}
+
+.footerContact {
+  display: flex;
+} 
+
+.footerContact img {
+  max-height: 3.5rem;
+  margin-top: 12px;
+  margin-right: 15px;
+}
+
+.colonneFooter input {
+  width: 17rem;
+  height: 2.5rem;
+  padding-left: 10px;
+  margin-bottom: 1rem;
+  color: rgba(255,255,255,0.71)!important;
+  letter-spacing: 1px;
+  border: 2px solid rgba(255,255,255,0.71);
+  background: inherit;
+}
+
+#footerSubmit {
+  padding: 0;
+  background: #f7a191;
+  border: 0px;
+  font-size: 18px;
+  width: 18rem;
+  height: 3rem;
+}
+
+#footerSubmit:hover {
+  background: #00a698;
+}
+
+.footerDeuxiemePartie {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .fontLogo {
+  background: inherit!important;
+  border: 2px solid rgba(255,255,255,0.71);
+  margin-top: 1rem;
+}
+
+footer .fontLogo i {
+  margin-left: 8px;
+}
+
 
 
 
