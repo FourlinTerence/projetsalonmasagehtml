@@ -675,6 +675,7 @@ nav input:hover {
 .deuxiemePartieArticle {
   min-height: 172rem;
   padding: 8rem 22% 0 22%;
+  background: #f9f9f9;
 }
 
 .deuxiemePartieArticle h3 {
@@ -693,6 +694,37 @@ nav input:hover {
 .deuxiemePartieArticle h6 {
   color: #000000!important;
   transform: translateY(0);
+}
+
+/*PAGE BLOG*/
+
+.premierePartieBlog {
+  min-height: 22rem;
+  width: 100%;
+  background: linear-gradient( rgba(0, 0, 0, 0.803), rgba(0, 0, 0, 0.803)),
+    url(image/massage48.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 15rem;
+}
+
+.premierePartieBlog p {
+  color: rgba(255,255,255,0.71)!important;
+}
+
+.deuxiemePartieBlog {
+  min-height: 60rem;
+  background: #f9f9f9;
+  padding: 5rem 10% 0 10%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.deuxiemePartieBlog .carteAvecBouton {
+  width: 90%;
+  height: 10rem;
+  margin-bottom: 3rem;
 }
 
 /*FOOTER*/
